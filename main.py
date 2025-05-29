@@ -1,6 +1,7 @@
 # main.py
 # Starts the program, loads data, shows menus and acts on your choices.
 
+d
 import tui
 import process
 import visual
