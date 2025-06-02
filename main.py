@@ -1,7 +1,7 @@
 # main.py
 # Starts the program, loads data, shows menus and acts on your choices.
 
-d
+s
 import tui
 import process
 import visual
@@ -14,6 +14,7 @@ def main():
     while True:
         # 3. Show main menu (A, B, Q) and get choice
         choice = tui.display_main_menu()
+        
 
         # 4. Echo and check choice
         if choice == 'A':
@@ -25,6 +26,7 @@ def main():
             break
         else:
             print("Invalid choice—please try again.\n")
+            
 
 def handle_view_menu(reviews):
     while True:
