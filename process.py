@@ -1,6 +1,6 @@
 # process.py
 # All data work: load CSV, filter, count, average, etc.
-s
+f
 import csv
 from collections import defaultdict
 
